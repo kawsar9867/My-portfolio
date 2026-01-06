@@ -1,0 +1,64 @@
+ *{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+/* shered-style */
+body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.logo h2{
+  font-size: 45px;
+  font-weight: 900px;
+  
+}
+.orange{
+  color: orangered;
+  font-weight: 900px;
+}
+/* main-style */
+header{
+  background-color:#FFF8F3;
+padding-top: 50px;
+}
+
+nav{
+  width: 71%;
+  max-width: 1140px;
+  /* border: 1px solid red; */
+  margin:0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .menu{
+  display: flex;
+  list-style-type:  none;
+  gap: 51px;
+  align-items: center;
+}
+nav .menu a{
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.btn{
+  color: #FFF8F3;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  border: 1px solid #FD6E0A;
+  padding: 18px 35px;
+  font-size: 20px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover{
+   background-color:paleturquoise;
+   color: red;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
